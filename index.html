@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">Bài Tập JS buổi 2, 3</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="text-center bai_tap col-6 bg-info p-5 border">
+                    <h2>Bài 1:Tính tiền lương nhân viên</h2>
+                    <p>1 Ngày làm: 100,000VND</p>
+                    <div class="container">
+                        <div class="form-group row">
+                            <input type="number" class="form-control col-8 my-5" name="" id="in_bai1"
+                                placeholder="Số ngày làm">
+                            <button type="button" name="" id="btn_bai1" class="btn btn-warning col-4 my-5">Tính</button>
+                            <p id="kq_bai1">Nhập số ngày làm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center bai_tap col-6 bg-info p-5 border">
+                    <h2>Bài 2:Tính giá trị trung bình</h2>
+                    <div class="container">
+                        <div class="form-group row">
+                            <p class="col-12">Nhập 5 số thực</p>
+                            <input type="text" class="form-control col-2 m-1" name="" id="s1" placeholder="">
+                            <input type="text" class="form-control col-2 m-1" name="" id="s2" placeholder="">
+                            <input type="text" class="form-control col-2 m-1" name="" id="s3" placeholder="">
+                            <input type="text" class="form-control col-2 m-1" name="" id="s4" placeholder="">
+                            <input type="text" class="form-control col-2 m-1" name="" id="s5" placeholder="">
+                            <button type="button" name="" id="btn_bai2" class="btn btn-warning col-4 my-2">Kết
+                                quả</button>
+                            <p class="col-12" id="kq_bai2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center bai_tap col-6 bg-info p-5 border">
+                    <h2>Bài 3: Quy đổi tiền</h2>
+                    <p>1 USD = 23,500VND</p>
+                    <div class="container">
+                        <div class="form-group row">
+                            <input type="number" class="form-control col-8 my-5" name="" id="in_bai3"
+                                placeholder="nhập số tiền">
+                            <button type="button" name="" id="btn_bai3" class="btn btn-warning col-4 my-5">Quy
+                                đổi</button>
+                            <p id="kq_bai3">Nhập số tiền cần đổi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center bai_tap col-6 bg-info p-5 border">
+                    <h2>Bài 4: Tính diện tích, chu vi hình chữ nhật</h2>
+                    <div class="container">
+                        <div class="form-group row">
+                            <input type="number" class="form-control col-3 my-5" name="" id="in_bai4_dai"
+                                placeholder="Chiều dài">
+                            <input type="number" class="form-control col-3 my-5" name="" id="in_bai4_rong"
+                                placeholder="Chiều rộng">
+                            <button type="button" name="" id="btn_bai4_dt" class="btn btn-warning my-5 col-3">Diện tích</button>
+                            <button type="button" name="" id="btn_bai4_cv" class="btn btn-success my-5 col-3">Chu vi</button>
+                            <p id="kq_bai4">Nhập chiều dài, chiều rộng</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+                <div class="text-center bai_tap col-6 bg-info p-5 border">
+                    <h2>Bài 5: Tính tổng 2 ký số</h2>
+                    <div class="container">
+                        <div class="form-group row">
+                            <input type="number" class="form-control col-8 my-5" name="" id="in_bai5"
+                                placeholder="Nhập 1 số có 2 chữ số">
+                            <button type="button" name="" id="btn_bai5" class="btn btn-warning col-4 my-5">Kết quả</button>
+                            <p id="kq_bai5">Nhập 1 số có 2 chữ số</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
